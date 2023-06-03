@@ -89,6 +89,14 @@ Country originalCountry;
         return connectionList;
     }
 
+    public void setServiceProviderList(List<ServiceProvider> serviceProviderList) {
+        this.serviceProviderList = serviceProviderList;
+    }
+
+    public void setConnectionList(List<Connection> connectionList) {
+        this.connectionList = connectionList;
+    }
+
     public List<ServiceProvider> getServiceProviderList() {
         return  this.serviceProviderList;
     }
