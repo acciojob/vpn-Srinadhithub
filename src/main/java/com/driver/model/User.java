@@ -8,7 +8,7 @@ import java.util.List;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Integer id;
+    int id;
     String username;
     String password;
     String originalIp;
@@ -29,7 +29,7 @@ Country originalCountry;
 
     }
 
-    public Integer getId() {
+    public int  getId() {
         return id;
     }
 
